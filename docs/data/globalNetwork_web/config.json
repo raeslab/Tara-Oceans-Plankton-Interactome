@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "text": "",
+    "file": "",
+    "link": ""
+  },
+  "text": {
+    "title": "TARA interactome",
+    "more": "This network represents all associations predicted for the TARA data set. \nThe edge between a taxon pair can be indirect if both taxa respond to an environmental factor, such as phosphate. \nEdges that we classified as indirect with the help of the interaction information are colored in gray. \nA green edge represents a copresence (positive association), a red edge a mutual exclusion (negative association).\n\n",
+    "intro": "TARA interactome - predicted associations between marine microbial taxa"
+  },
+  "legend": {
+    "edgeLabel": "Predicted associations between taxa",
+    "colorLabel": "Pink \u003d Bacteria, Blue \u003d Eukaryota, Brown \u003d Bacteriophages, Yellow \u003d Archaea, Gray \u003d Unknown domain",
+    "nodeLabel": "Taxa"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "Rank4",
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "imageAttribute": false,
+    "groupByEdgeDirection": false
+  },
+  "sigma": {
+    "graphProperties": {
+      "minEdgeSize": 0.2,
+      "maxNodeSize": 7,
+      "maxEdgeSize": 0.5,
+      "minNodeSize": 1
+    },
+    "drawingProperties": {
+      "labelThreshold": 10,
+      "hoverFontStyle": "bold",
+      "defaultEdgeType": "curve",
+      "defaultLabelColor": "#000",
+      "defaultLabelHoverColor": "#fff",
+      "defaultLabelSize": 14,
+      "activeFontStyle": "bold",
+      "fontStyle": "bold",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd"
+    },
+    "mouseProperties": {
+      "minRatio": 0.75,
+      "maxRatio": 20
+    }
+  }
+}
